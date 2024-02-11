@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://leandrosoares658.github.io/dsmovie",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+  "deploy": "deploy": "gh-pages -b master -d build",
   "start": "react-scripts start",
   "build": "react-scripts build",
   "private": true,
